@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+  background: #fefefe;
+  color: #343434;
+  font-family: "Helvetica Neue";
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #6d6d6d;
+}
