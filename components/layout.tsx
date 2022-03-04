@@ -6,6 +6,10 @@ import Link from "next/link";
 import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+const TopLevelWrapper = styled("div")`
+  max-width: 1440px;
+  margin: auto;
+`;
 const Main = styled("div")`
   margin: 24px;
 `;
@@ -92,7 +96,9 @@ const Layout: React.FunctionComponent = ({ children }) => {
           </IconFlex>
         </NavBar>
       </AppBar>
-      <Main>{children}</Main>
+      <TopLevelWrapper>
+        <Main>{children}</Main>
+      </TopLevelWrapper>
     </>
   );
 };
