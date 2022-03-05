@@ -47,7 +47,7 @@ const Description = styled(Typography)`
 `;
 
 const aboutDescription = `
-  Hi, I'm Ally!  To me there is nothing more amazing than building something, having it work, and able to make music it out of it.
+  Hi, I'm Ally! To me there is nothing more amazing than building something, having it work, and being able to make music with it.
   When starting college I didn't know my direction, but as time passed I learned how to combine
   my passion for science with my love for music in building electronic instruments. I've tailored my academic and professional
   career to do just that, graduating from Wheaton College (MA) in 2019 with a BA in Music and a minor in Physics, and I am

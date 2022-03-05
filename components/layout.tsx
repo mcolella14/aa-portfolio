@@ -17,6 +17,8 @@ const Main = styled("div")`
 const NavBar = styled(Toolbar)`
   display: flex;
   justify-content: space-between;
+  background-color: #343434;
+  color: #fefefe;
 `;
 
 const SubNav = styled("div")`
@@ -48,6 +50,9 @@ const IconLink = styled("div")`
 
 const Name = styled("a")`
   width: 20%;
+  :hover {
+    cursor: pointer;
+  }
 `;
 
 const Layout: React.FunctionComponent = ({ children }) => {
